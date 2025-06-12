@@ -9,5 +9,5 @@ PYOADFE Hello -- оформляем свой пакет для Python
 3. Загрузим пакет на [PyPI](https://pypi.org/), где хранится индекс пакетов для Python, которым пользуется команда `pip install`.
    - соберём архив: `python -m build --sdist`
    - [инструкция по регистрации и настройке тестового индекса PyPI](https://packaging.python.org/en/latest/guides/using-testpypi/)
-   - отправим в [тестовый индекс PyPI](https://test.pypi.org):`twine upload --repository testpypi dist/pyoadfe_hello-2024.0.tar.gz`
+   - отправим в [тестовый индекс PyPI](https://test.pypi.org):`twine upload --repository testpypi dist/pyoadfe_hello-2025.0.tar.gz`
    - проверим возможность установки из тестового индекса: `pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/  pyoadfe-hello`

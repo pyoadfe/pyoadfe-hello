@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyoadfe-hello"
-version = "2024.0"
+version = "2025.0"
 description = "Sample Python package"
 readme = "README.md"
 authors = [
